@@ -62,6 +62,10 @@ section.home {
   text-decoration: none;
 }
 
+.logo a:hover {
+  color: var(--primary-color);
+}
+
 .logo {
   
   position: absolute;
@@ -76,26 +80,8 @@ section.home {
   position: absolute;
   z-index: -25;
   width: 90px;
-  margin-left: 320px;
-  margin-top: -6px
-
-}
-
-.logo3 {
-  position: absolute;
-  z-index: -25;
-  width: 90px;
-  margin-left: 320px;
-  margin-top: -66px
-
-}
-
-.logo4 {
-  position: absolute;
-  z-index: -25;
-  width: 90px;
-  margin-left: 320px;
-  margin-top: -66px
+  margin-left: -70px;
+  margin-top: -36px
 
 }
 
