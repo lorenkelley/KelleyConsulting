@@ -212,26 +212,30 @@ section.home {
 }
 
 /* work */
-.portfolio {
+.work {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
 }
 
-.portfolio .item {
+ .w-head {
+  text-align: center;
+}
+
+.work .item {
   position: relative;
   width: 300px;
   height: 300px;
   margin: 5px;
 }
 
-.portfolio .item img {
+.work .item img {
   width: 100%;
   height: 100%;
 }
 
-.portfolio .item .action {
+ .work .item .action {
   position: absolute;
   top: 0;
   left: 0;
@@ -245,11 +249,11 @@ section.home {
   transition: 0.5s;
 }
 
-.portfolio .item:hover .action {
+.work .item:hover .action {
   opacity: 1;
 }
 
-.portfolio .item .action a {
+.work .item .action a {
   display: inline-block;
   color: #fff;
   text-decoration: none;
@@ -267,34 +271,39 @@ section.home {
   align-items: flex-start;
 }
 
-.contact-form {
+.c-head {
+  text-align: center;
+ 
+}
+
+.c-form {
   position: relative;
   background: #f9f9f9;
   width: calc(100% - 400px);
   padding: 60px 40px 20px;
 }
 
-.contact-form form {
+.c-form form {
   width: 100%;
 }
 
-.contact-form .row {
+.c-form .row {
   width: 100%;
   display: flex;
 }
 
-.contact-form .input50 {
+.c-form .input50 {
   width: 50%;
   margin: 0 10px;
 }
 
-.contact-form .input100 {
+.c-form .input100 {
   width: 100%;
   margin: 0 10px;
 }
 
-.contact-form .row input,
-.contact-form .row textarea {
+.c-form .row input,
+.c-form .row textarea {
   position: relative;
   border: 1px solid rgba(0, 0, 0, 0.2);
   color: #111;
@@ -308,11 +317,11 @@ section.home {
   resize: none;
 }
 
-.contact-form .row textarea {
+.c-form .row textarea {
   height: 150px;
 }
 
-.contact-form .row input[type='submit'] {
+.c-form .row input[type='submit'] {
   background-color: var(--secondary-color);
   color: #fff;
   margin: 0;
@@ -323,29 +332,29 @@ section.home {
   cursor: pointer;
 }
 
-.contact-info {
+.c-info {
   width: 350px;
   background: #f9f9f9;
   padding: 60px 40px 20px;
 }
 
-.contact-info .info-box {
+.c-info .info-box {
   display: flex;
   align-items: flex-start;
   margin-bottom: 40px;
 }
 
-.contact-info .info-box .contact-icon {
+.c-info .info-box .contact-icon {
   width: 20px;
   margin-right: 40px;
 }
 
-.contact-info .info-box .details h4 {
+.c-info .info-box .details h4 {
   color: var(--secondary-color);
 }
 
-.contact-info .info-box .details p,
-.contact-info .info-box .details a {
+.c-info .info-box .details p,
+.c-info .info-box .details a {
   color: #111;
   
 }
