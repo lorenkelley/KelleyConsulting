@@ -108,7 +108,7 @@ section.home {
 }
 
 /* links */
-.navigation {
+.nav {
   position: fixed;
   top: 0;
   left: 100%;
@@ -121,32 +121,32 @@ section.home {
   align-items: center;
 }
 
-.navigation.active {
+.nav.active {
   left: 0;
 }
 
-.navigation ul {
+.nav ul {
   position: relative;
 }
 
-.navigation ul li {
+.nav ul li {
   position: relative;
   list-style: none;
   text-align: center;
 }
 
-.navigation ul li a {
+.nav ul li a {
   font-size: 2.2rem;
   color: #111;
   text-decoration: none;
   font-weight: 300;
 }
 
-.navigation ul li a:hover {
+.nav ul li a:hover {
   color: var(--primary-color);
 }
 
-.navigation .social-bar {
+.nav .social {
   position: absolute;
   top: 0;
   left: 0;
@@ -157,16 +157,17 @@ section.home {
   align-items: center;
 }
 
-.navigation .social-bar a {
+.nav .social a {
   display: inline-block;
   transform: scale(0.5);
 }
 
-.navigation .email-icon {
+.nav .e-icon {
   position: absolute;
   bottom: 20px;
   transform: scale(0.5);
 }
+
 
 /* home */
 .home-content {
@@ -377,7 +378,7 @@ section.home {
     padding: 100px 40px;
   }
 
-  .navigation ul li a {
+  .nav ul li a {
     font-size: 2rem;
   }
 
@@ -389,22 +390,22 @@ section.home {
     flex-direction: column;
   }
 
-  .contact-form {
+  .c-form {
     width: 100%;
     padding: 30px 30px 20px;
   }
 
-  .contact-form .row {
+  .c-form .row {
     flex-direction: column;
   }
 
-  .contact-form .input50,
-  .contact-form .input100 {
+  .c-form .input50,
+  .c-form .input100 {
     width: 100%;
     margin: 0;
   }
 
-  .contact-info {
+  .c-info {
     width: 100%;
     margin-top: 20px;
     padding: 30px 30px 20px;
