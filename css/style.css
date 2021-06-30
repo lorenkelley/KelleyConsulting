@@ -5,7 +5,7 @@
   --secondary-color: #105527;
 }
 
-/* BASE STYLES */
+/* styles for whole page */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -85,7 +85,7 @@ section.home {
 
 }
 
-/* TOGGLE */
+/* toggle styles for menu */
 .toggle {
   position: fixed;
   top: 0;
@@ -107,7 +107,7 @@ section.home {
   background-repeat: no-repeat;
 }
 
-/* NAVIGATE */
+/* links */
 .navigation {
   position: fixed;
   top: 0;
@@ -168,7 +168,7 @@ section.home {
   transform: scale(0.5);
 }
 
-/* HOMEPAGE */
+/* home */
 .home-content {
   z-index: 10;
   max-width: 600px;
@@ -203,7 +203,7 @@ section.home {
   font-size: 24px;
   font-weight: 500;
   margin-top: 20px;
-  color: var(--secondary-color);
+  color: black
 }
 
 .services .service .icon img {
@@ -211,7 +211,7 @@ section.home {
   max-width: 100px;
 }
 
-/* WORK PAGE */
+/* work */
 .portfolio {
   display: flex;
   flex-wrap: wrap;
@@ -347,8 +347,12 @@ section.home {
 .contact-info .info-box .details p,
 .contact-info .info-box .details a {
   color: #111;
+  
 }
 
+
+
+/*responsive design*/
 @media (max-width: 1068px) {
   .home-img {
     display: none;
@@ -398,6 +402,7 @@ section.home {
   }
 }
 
+/*responsive design mobile*/
 @media (max-width: 768px) {
   .services {
     grid-template-columns: 1fr;
