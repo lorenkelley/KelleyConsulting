@@ -1,5 +1,5 @@
 const toggle = document.querySelector('.toggle')
-const navigation = document.querySelector('.navigation')
+const navigation = document.querySelector('.nav')
 
 toggle.addEventListener('click', () => {
   toggle.classList.toggle('active')
